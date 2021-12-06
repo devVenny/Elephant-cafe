@@ -1,6 +1,6 @@
 #home {
   background-color: cornflowerblue;
-  height: 44vh;
+  height: 46vh;
   width: 100%;
 }
 
@@ -12,12 +12,21 @@
   position: relative;
 }
 
-.home-title {
+.home-text {
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 66px;
-  color: black;
-  letter-spacing: 1.2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 68px;
+  letter-spacing: 1.1rem;
+}
+
+.home-subtitle {
+  font-size: 24px;
+  margin-top: 40px;
 }
