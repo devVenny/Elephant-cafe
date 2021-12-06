@@ -5,14 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elephant cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9cd36ea70d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header"></header>
-    <section class="home"></section>
-    <section class="signiture"></section>
-    <section class="coupon"></section>
-    <section class="crew"></section>
-    <section class="apply"></section>
-    <footer class="footer"></footer>
+    <header id="header">
+      <div class="header-left">
+        <a class="header__logo" href="/index.html">
+          <i class="fas fa-republican"></i>
+        </a>
+
+        <ul class="header__nav">
+          <li class="header__menu">
+            <a href="#">Menu</a>
+          </li>
+          <li class="header__photo">
+            <a href="#">Photo</a>
+          </li>
+          <li class="header__info">
+            <a href="#">Info</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <div class="find-store">
+          <i class="fas fa-map-marker-alt"></i><span>Find a store</span>
+        </div>
+        <button class="header-btn signIn-btn">Sign in</button>
+        <button class="header-btn login-btn">Log in</button>
+      </div>
+    </header>
+    <section id="home"></section>
+    <section id="signiture"></section>
+    <section id="coupon"></section>
+    <section id="crew"></section>
+    <section id="apply"></section>
+    <footer id="footer"></footer>
   </body>
 </html>
