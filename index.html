@@ -16,6 +16,8 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
+
+    <script defer src="components/about.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -47,10 +49,10 @@
     </header>
 
     <!-- Home-->
-    <section id="home" class="section">
+    <section id="home" class="section content-column">
       <div class="bg">
         <div class="home-text">
-          <div class="home-title">ELEPHANT CAFE</div>
+          <h1 class="home-title">ELEPHANT CAFE</h2>
           <div class="home-subtitle">
             Enjoy delicious coffee with homemade bakery.
           </div>
@@ -58,17 +60,36 @@
       </div>
     </section>
 
+    <!-- About -->
+    <section id="about" class="section content-column">
+      <div class="image-slider">
+        <div class="image-wrapper">
+          <img class="about-bg show" src="images/about-bg2.jpeg">
+          <img class="about-bg" src="images/about-bg3.jpeg">
+          <img class="about-bg" src="images/about-bg4.jpeg">
+          <img class="about-bg" src="images/about-bg5.jpeg">
+          <img class="about-bg" src="images/about-bg6.jpeg">
+
+        </div>
+      </div>
+
+      <div class="controller">
+        <div class="prev slide-btn"><i class="fas fa-chevron-left"></i></div>
+        <div class="next slide-btn"><i class="fas fa-chevron-right"></i></div>
+      </div>
+    </section>
+
     <!-- Signiture -->
-    <section id="signiture" class="section"></section>
+    <section id="signiture" class="section content-column"></section>
 
     <!-- Coupon -->
-    <section id="coupon" class="section"></section>
+    <section id="coupon" class="section content-column"></section>
 
     <!-- Crew -->
-    <section id="crew" class="section"></section>
+    <section id="crew" class="section content-column"></section>
 
     <!-- Apply -->
-    <section id="apply" class="section"></section>
+    <section id="apply" class="section content-column"></section>
 
     <!-- Footer -->
     <footer id="footer"></footer>

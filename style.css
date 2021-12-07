@@ -1,9 +1,16 @@
 @import url("./css/header.css");
 @import url("./css/home.css");
+@import url("./css/about.css");
 
 :root {
   --font-color-main: black;
   --forest-green: rgb(23, 92, 23);
+  --light-brown: #bc9246;
+  --lightest-brown: rgba(197, 163, 99, 0.4);
+  --normal-grey: #8892b0;
+  --light-grey: #a8b2d1;
+  --lightest-grey: #ccd6f6;
+  --deep-green: #13301f;
 }
 
 * {
@@ -13,13 +20,19 @@
   font-size: 14px;
   line-height: 1.5rem;
   letter-spacing: -0.01em;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  box-sizing: border-box;
 }
 
 .section {
   max-width: 1440px;
+  text-align: center;
+}
+
+.content-column {
+  margin-bottom: 30px;
+  box-sizing: border-box;
 }

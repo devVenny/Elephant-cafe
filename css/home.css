@@ -1,5 +1,4 @@
 #home {
-  background-color: cornflowerblue;
   height: 46vh;
   width: 100%;
 }
@@ -23,6 +22,7 @@
 
 .home-title {
   font-size: 68px;
+  font-weight: 400;
   letter-spacing: 1.1rem;
 }
 
