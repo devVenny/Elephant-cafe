@@ -37,3 +37,24 @@ function handleClick(whichBtn) {
   imageWrapper[index].classList.add(CLASSNAME__SHOW);
   dotControl[index].classList.add(CLASSNAME__ACTIVE);
 }
+
+// parallax scroll
+/* moving leaf up and down */
+
+const aboutTop = document.getElementById("about").getBoundingClientRect().top;
+const leafBlue = document.querySelector(".leaf-blue");
+const leafGreen = document.querySelector(".leaf-green");
+const leafRedBig = document.querySelector(".leaf-red--big");
+const leafRedSmall = document.querySelector(".leaf-red--small");
+
+window.addEventListener("scroll", parallaxFunc);
+
+function parallaxFunc() {
+  const scrollY = window.scrollY + aboutTop;
+  leafBlue.style.right = `${scrollY * 0.75}px`;
+  leafGreen.style.top = `${scrollY * 0.1}px`;
+  leafGreen.style.left = `${scrollY * 0.6}px`;
+  leafRedBig.style.top = `${scrollY * 0.15}px`;
+  leafRedBig.style.right = `${scrollY * 0.63}px`;
+  leafRedSmall.style.left = `${scrollY * 0.6}px`;
+}

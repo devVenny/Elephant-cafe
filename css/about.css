@@ -106,3 +106,35 @@
 .active {
   background-color: #717171;
 }
+
+/* ----> leaves */
+
+.leaf {
+  display: block;
+  width: 110px;
+  position: absolute;
+  z-index: -100;
+}
+
+.leaf-blue {
+  top: 70%;
+  transform: rotate(10deg);
+}
+
+.leaf-green {
+  top: 2%;
+  left: 13%;
+  transform: rotate(-5deg);
+}
+
+.leaf-red--big {
+  top: 0;
+  right: 5%;
+  transform: rotate(10deg);
+}
+
+.leaf-red--small {
+  top: 50%;
+  left: 10%;
+  transform: rotate(-20deg);
+}
