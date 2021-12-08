@@ -1,0 +1,28 @@
+#bakery {
+  background-color: var(--deep-green);
+  display: flex;
+  justify-content: space-between;
+  height: 70vh;
+}
+
+/* Bakery left */
+
+/* Bakery right */
+
+.bakery-right {
+  width: 50%;
+}
+
+.bakery-title,
+.bakery-description h3,
+.bakery-btn {
+  color: #ffffff;
+}
+
+.bakery-btn {
+  border: 1px solid #ffffff;
+}
+
+.bakery-btn:hover {
+  background-color: rgba(245, 245, 245, 0.397);
+}

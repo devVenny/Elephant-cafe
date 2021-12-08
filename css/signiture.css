@@ -3,51 +3,55 @@
   margin-top: 70px;
   display: Flex;
   justify-content: space-between;
+  height: 70vh;
 }
 
 /* signature-left */
 
-.signature-left {
-  width: 50%;
-  text-align: center;
-}
-
-.signature-left h1 {
+.section-title {
   font-weight: 700;
   font-size: 2.3rem;
-  letter-spacing: 8px;
-  margin-bottom: 60px;
+  letter-spacing: 20px;
+  margin: 70px 0;
 }
 
-.signature-description {
+.section-description {
   max-width: 400px;
   margin: 0 auto;
   margin-bottom: 40px;
 }
 
-.signature-description h3 {
+.section-description h3 {
   font-weight: 400;
   font-size: 22px;
   letter-spacing: 4px;
+}
+
+.signature-btn {
+  border: 1px solid black;
 }
 
 .signature-btn:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.signature-btn {
-  font-size: 14px;
-  margin-bottom: 30px;
-}
-
 /* signature-right */
 
-.signature-right {
+.section-image-container {
   width: 50%;
+  margin: 35px;
+  overflow: hidden;
 }
 
 .brown-latte {
   background: url("/images/brown-latte.JPG");
+}
+
+.bakery-image {
+  background: url("/images/bakery-main.jpeg");
+}
+
+.section-image {
   width: 100%;
   height: 100%;
   background-position: center center;
@@ -55,9 +59,10 @@
   background-size: cover;
   filter: grayscale(1);
   cursor: pointer;
-  transition: filter 0.2s ease-in;
+  transition: all 0.25s ease-in;
 }
 
-.brown-latte:hover {
+.section-image:hover {
   filter: grayscale(0);
+  transform: scale(1.04);
 }

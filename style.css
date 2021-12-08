@@ -2,6 +2,7 @@
 @import url("./css/home.css");
 @import url("./css/about.css");
 @import url("./css/signiture.css");
+@import url("./css/bakery.css");
 
 :root {
   --font-color-main: black;
@@ -42,6 +43,10 @@ body {
 .text-center {
   text-align: center;
   padding: 32px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
 }
 
 .btn {
@@ -49,5 +54,5 @@ body {
   border-radius: 20px;
   font-weight: 600;
   transition: all 0.2s ease-in-out;
-  border: 1px solid black;
+  font-size: 14px;
 }
