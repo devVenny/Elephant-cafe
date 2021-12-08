@@ -86,14 +86,6 @@ button {
   margin-right: 12px;
 }
 
-.header-btn {
-  border: 1px solid black;
-  padding: 6px 20px;
-  border-radius: 20px;
-  font-weight: 600;
-  transition: all 0.2s ease-in-out;
-}
-
 .login-btn {
   margin-left: 14px;
   background-color: black;

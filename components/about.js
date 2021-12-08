@@ -51,10 +51,10 @@ window.addEventListener("scroll", parallaxFunc);
 
 function parallaxFunc() {
   const scrollY = window.scrollY + aboutTop;
-  leafBlue.style.right = `${scrollY * 0.75}px`;
+  leafBlue.style.right = `${scrollY * 0.45}px`;
   leafGreen.style.top = `${scrollY * 0.1}px`;
-  leafGreen.style.left = `${scrollY * 0.6}px`;
+  leafGreen.style.left = `${scrollY * 0.4}px`;
   leafRedBig.style.top = `${scrollY * 0.15}px`;
-  leafRedBig.style.right = `${scrollY * 0.63}px`;
-  leafRedSmall.style.left = `${scrollY * 0.6}px`;
+  leafRedBig.style.right = `${scrollY * 0.3}px`;
+  leafRedSmall.style.left = `${scrollY * 0.5}px`;
 }
