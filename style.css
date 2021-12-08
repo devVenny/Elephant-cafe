@@ -3,6 +3,7 @@
 @import url("./css/about.css");
 @import url("./css/signiture.css");
 @import url("./css/bakery.css");
+@import url("./css/coupon.css");
 
 :root {
   --font-color-main: black;
@@ -40,7 +41,7 @@ body {
   box-sizing: border-box;
 }
 
-.text-center {
+.section-text {
   text-align: center;
   padding: 32px 40px;
   display: flex;
@@ -50,9 +51,10 @@ body {
 }
 
 .btn {
+  letter-spacing: 1px;
   padding: 6px 20px;
   border-radius: 20px;
-  font-weight: 600;
+  font-weight: 400;
   transition: all 0.2s ease-in-out;
   font-size: 14px;
 }

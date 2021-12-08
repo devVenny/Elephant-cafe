@@ -1,0 +1,16 @@
+#coupon {
+  height: 70vh;
+  background-color: var(--deep-green);
+  display: flex;
+  justify-content: space-between;
+}
+
+.coupon-image {
+  background: url("/images/coupon-main.jpeg");
+}
+
+.coupon-title {
+  line-height: 3.5rem;
+  margin-top: 30px;
+  letter-spacing: 0.7rem;
+}
