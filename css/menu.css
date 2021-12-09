@@ -1,0 +1,39 @@
+#menu-container {
+  display: flex;
+}
+
+#menu-category {
+  width: 18%;
+  padding: 0 20px;
+}
+
+#menus {
+  width: 78%;
+}
+
+/* menu-category */
+.menu-title {
+  width: 3%;
+  position: relative;
+}
+
+.menu-title h2 {
+  transform: rotate(270deg) translate(-50px, 25px);
+  position: absolute;
+  margin: 0;
+  right: 0;
+}
+
+.catergory-wrapper ul {
+  padding-left: 20px;
+}
+
+.catergory-wrapper ul li {
+  color: rgba(0, 0, 0, 0.58);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.catergory-wrapper ul li:hover {
+  color: rgba(0, 0, 0, 0.88);
+}

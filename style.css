@@ -8,6 +8,8 @@
 @import url("./css/apply.css");
 @import url("./css/footer.css");
 
+@import url("./css/menu.css");
+
 :root {
   --font-color-main: black;
   --forest-green: rgb(23, 92, 23);
@@ -29,6 +31,10 @@
 
 a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 body {

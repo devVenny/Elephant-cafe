@@ -9,7 +9,7 @@ button {
   justify-content: space-between;
   align-items: center;
   padding: 0px 50px;
-  margin-left: 20px;
+  box-shadow: 1px 1px 5px 1px grey;
 }
 
 .header-left {
