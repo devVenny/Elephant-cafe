@@ -4,36 +4,109 @@
 
 #menu-category {
   width: 18%;
-  padding: 0 20px;
+  padding: 40px 60px;
+}
+
+#menu-category::after {
+  margin-top: 40px;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: var(--border-grey);
 }
 
 #menus {
   width: 78%;
+  padding: 40px 95px 0px 110px;
 }
 
-/* menu-category */
-.menu-title {
-  width: 3%;
-  position: relative;
-}
-
-.menu-title h2 {
-  transform: rotate(270deg) translate(-50px, 25px);
-  position: absolute;
-  margin: 0;
-  right: 0;
-}
+/* Menu-category */
 
 .catergory-wrapper ul {
   padding-left: 20px;
 }
 
 .catergory-wrapper ul li {
+  width: 100px;
   color: rgba(0, 0, 0, 0.58);
   margin-bottom: 10px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.2s ease-in-out;
 }
 
+.catergory-wrapper ul li::after {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: var(--deep-green);
+  opacity: 0;
+  margin-left: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.catergory-wrapper ul li:hover::after,
 .catergory-wrapper ul li:hover {
-  color: rgba(0, 0, 0, 0.88);
+  opacity: 1;
+  color: var(--deep-green);
+}
+
+.category-title {
+  margin-top: 0;
+}
+
+/* Menus */
+
+.menus-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.menus-container {
+  margin-top: 60px;
+}
+
+.menus-container__title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-bottom: 1px solid var(--border-grey);
+  padding-bottom: 25px;
+}
+
+.links-container {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.linkOverlay__primary {
+  height: 150px;
+  display: flex;
+}
+
+.menus__image {
+  width: 50%;
+  background: url("/images/brown-latte.JPG");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.menus__name {
+  width: 50%;
+  display: Flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menus__name span {
+  margin-left: 35px;
+  font-size: 1.3rem;
+  font-weight: 400;
 }

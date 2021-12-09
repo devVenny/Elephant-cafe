@@ -19,6 +19,7 @@
   --light-grey: #a8b2d1;
   --lightest-grey: #ccd6f6;
   --deep-green: #13301f;
+  --border-grey: rgba(0, 0, 0, 0.1);
 }
 
 * {
