@@ -12,17 +12,3 @@
 .bakery-right {
   width: 50%;
 }
-
-.section-title,
-.section-description h3,
-.section-btn {
-  color: #ffffff;
-}
-
-.section-btn {
-  border: 1px solid #ffffff;
-}
-
-.section-btn:hover {
-  background-color: rgba(245, 245, 245, 0.397);
-}

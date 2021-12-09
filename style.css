@@ -4,6 +4,7 @@
 @import url("./css/signiture.css");
 @import url("./css/bakery.css");
 @import url("./css/coupon.css");
+@import url("./css/crew.css");
 
 :root {
   --font-color-main: black;
@@ -94,4 +95,10 @@ body {
 
 .section-btn:hover {
   background-color: rgba(245, 245, 245, 0.397);
+}
+
+.section-image-container {
+  width: 50%;
+  margin: 35px;
+  overflow: hidden;
 }

@@ -7,17 +7,7 @@
 
 /* coffee-left */
 
-.section-btn {
-  border: 1px solid #ffffff;
-}
-
 /* coffee-right */
-
-.section-image-container {
-  width: 50%;
-  margin: 35px;
-  overflow: hidden;
-}
 
 .brown-latte {
   background: url("/images/brown-latte.JPG");

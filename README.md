@@ -2,8 +2,6 @@
 
 ## Contents
 
-Contents
-
 - Header
 - Home logo
 - Menu
@@ -14,17 +12,20 @@ Contents
 - Join now
 
 - Home
+
   - Café image with intro text
   - About
-  - Signiture coffee(Brown lattee)
-  - How to get Free coffee
+  - Coffee
+  - Bakery
+  - Coupon
   - Crew
   - Apply
-  - Footer
-    - About us
-      - Our café
-      - Our coffee
-    - Order
-      - Delivery
-    - Instagram
-    - Rights
+
+- Footer
+  - About us
+    - Our café
+    - Our coffee
+  - Order
+    - Delivery
+  - Instagram
+  - Rights
