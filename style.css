@@ -6,6 +6,7 @@
 @import url("./css/coupon.css");
 @import url("./css/crew.css");
 @import url("./css/apply.css");
+@import url("./css/footer.css");
 
 :root {
   --font-color-main: black;
@@ -26,9 +27,13 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
-  height: 1200vh;
+  position: relative;
 }
 
 /* Section */
