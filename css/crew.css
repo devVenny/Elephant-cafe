@@ -3,6 +3,8 @@
   background-color: var(--light-brown);
   display: Flex;
   justify-content: space-between;
+  margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .crew-image-container {
@@ -20,19 +22,19 @@
 }
 
 .crew-image:nth-child(1) {
-  width: 28%;
-  left: 10%;
+  width: 30%;
+  left: 8%;
 }
 
 .crew-image:nth-child(2) {
-  width: 28%;
-  right: 10%;
+  width: 30%;
+  right: 8%;
 }
 
 .crew-image:nth-child(3) {
   right: 50%;
   transform: translateX(50%) translateY(-50%);
-  width: 33%;
+  width: 34%;
   z-index: 100;
 }
 

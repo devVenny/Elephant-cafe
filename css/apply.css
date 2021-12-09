@@ -1,0 +1,23 @@
+#apply {
+  background-color: #d4e9e2;
+  padding: 35px;
+}
+
+.apply-text h1 {
+  font-size: 2rem;
+}
+
+.apply-text h1,
+.apply-text h3,
+.apply-text button {
+  color: var(--deep-green);
+}
+
+.apply-text button {
+  margin-top: 20px;
+  border: 1px solid var(--deep-green);
+}
+
+.apply-text button:hover {
+  background-color: #13301f28;
+}

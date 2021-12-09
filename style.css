@@ -5,6 +5,7 @@
 @import url("./css/bakery.css");
 @import url("./css/coupon.css");
 @import url("./css/crew.css");
+@import url("./css/apply.css");
 
 :root {
   --font-color-main: black;
