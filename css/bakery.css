@@ -13,16 +13,16 @@
   width: 50%;
 }
 
-.bakery-title,
-.bakery-description h3,
-.bakery-btn {
+.section-title,
+.section-description h3,
+.section-btn {
   color: #ffffff;
 }
 
-.bakery-btn {
+.section-btn {
   border: 1px solid #ffffff;
 }
 
-.bakery-btn:hover {
+.section-btn:hover {
   background-color: rgba(245, 245, 245, 0.397);
 }
