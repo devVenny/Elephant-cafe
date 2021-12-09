@@ -1,5 +1,5 @@
 #home {
-  height: 50vh;
+  height: calc(100vh - 106px);
   width: 100%;
   position: relative;
 }
@@ -23,7 +23,7 @@
 
 .home-title {
   font-size: 68px;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 1.1rem;
 }
 
