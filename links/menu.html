@@ -17,6 +17,8 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,700&display=swap"
       rel="stylesheet"
     />
+
+    <script defer src="/components/menus.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -53,28 +55,30 @@
         <div class="catergory-wrapper">
           <h3 class="category-title">Drinks</h3>
           <ul>
-            <li data-filter="Coffee">Coffee</li>
-            <li data-filter="Tea">Tea</li>
-            <li data-filter="Smoothie">Smoothie</li>
-            <li data-filter="Juice">Juice</li>
-            <li data-filter="Ade">Ade</li>
+            <li data-filter="coffee">Coffee</li>
+            <li data-filter="non-coffee">Non-Coffee</li>
+            <li data-filter="tea">Tea</li>
+            <li data-filter="fraffe">Fraffe</li>
+            <li data-filter="smoothie">Smoothie</li>
+            <li data-filter="juice">Juice</li>
+            <li data-filter="ade">Ade</li>
           </ul>
         </div>
         <div class="catergory-wrapper">
           <h3 class="category-title">Bakery</h3>
           <ul>
-            <li data-filter="Scorn">Scorn</li>
-            <li data-filter="Financier">Financier</li>
-            <li data-filter="Madeleine">Madeleine</li>
-            <li data-filter="Tigre">Tigre</li>
-            <li data-filter="Cake">Cake</li>
+            <li data-filter="scone">Scone</li>
+            <li data-filter="financier">Financier</li>
+            <li data-filter="madeleine">Madeleine</li>
+            <li data-filter="tigre">Tigre</li>
+            <li data-filter="cake">Cake</li>
           </ul>
         </div>
         <div class="catergory-wrapper">
           <h3 class="category-title">Merchandise</h3>
           <ul>
             <li data-filter="coffee-bean">Coffee bean</li>
-            <li data-filter="Eco-bag">Eco bag</li>
+            <li data-filter="eco-bag">Eco bag</li>
             <li data-filter="cup">Cup</li>
           </ul>
         </div>
@@ -85,24 +89,39 @@
         <div class="menus-title">Menu</div>
         <div class="menus-container">
           <div class="menus-container__title">Drinks</div>
-          <div class="links-container">
-            <a href="#" class="linkOverlay__primary">
-              <div class="menus__image drinks__image"></div>
-              <div class="menus__name drinks__name"><span>Coffee</span></div>
+          <div class="link-container">
+            <a href="#" class="linkOverlay__primary" data-category="coffee">
+              <div
+                class="menus__image drinks__image"
+                data-category="coffee"
+              ></div>
+              <div class="menus__name drinks__name" data-category="coffee">
+                <span>Coffee</span>
+              </div>
             </a>
-            <a href="#" class="linkOverlay__primary">
+            <a href="#" class="linkOverlay__primary" data-category="non-coffee">
+              <div class="menus__image drinks__image"></div>
+              <div class="menus__name drinks__name">
+                <span>Non-Coffee</span>
+              </div>
+            </a>
+            <a href="#" class="linkOverlay__primary" data-category="tea">
               <div class="menus__image drinks__image"></div>
               <div class="menus__name drinks__name"><span>Tea</span></div>
             </a>
-            <a href="#" class="linkOverlay__primary">
+            <a href="#" class="linkOverlay__primary" data-category="fraffe">
+              <div class="menus__image drinks__image"></div>
+              <div class="menus__name drinks__name"><span>Fraffe</span></div>
+            </a>
+            <a href="#" class="linkOverlay__primary" data-category="smoothie">
               <div class="menus__image drinks__image"></div>
               <div class="menus__name drinks__name"><span>Smoothie</span></div>
             </a>
-            <a href="#" class="linkOverlay__primary">
+            <a href="#" class="linkOverlay__primary" data-category="juice">
               <div class="menus__image drinks__image"></div>
               <div class="menus__name drinks__name"><span>Juice</span></div>
             </a>
-            <a href="#" class="linkOverlay__primary">
+            <a href="#" class="linkOverlay__primary" data-category="ade">
               <div class="menus__image drinks__image"></div>
               <div class="menus__name drinks__name"><span>Ade</span></div>
             </a>
@@ -110,24 +129,24 @@
         </div>
         <div class="menus-container">
           <div class="menus-container__title">Bakery</div>
-          <div class="links-container">
-            <a href="#" class="linkOverlay__primary">
+          <div class="link-container">
+            <a href="#" class="linkOverlay__primary" data-category="">
               <div class="menus__image drinks__image"></div>
-              <div class="menus__name drinks__name"><span>Scorn</span></div>
+              <div class="menus__name drinks__name"><span>Scone</span></div>
             </a>
-            <a href="#" class="linkOverlay__primary">
+            <a href="#" class="linkOverlay__primary" data-category="">
               <div class="menus__image drinks__image"></div>
               <div class="menus__name drinks__name"><span>Financier</span></div>
             </a>
-            <a href="#" class="linkOverlay__primary">
+            <a href="#" class="linkOverlay__primary" data-category="">
               <div class="menus__image drinks__image"></div>
               <div class="menus__name drinks__name"><span>Madeleine</span></div>
             </a>
-            <a href="#" class="linkOverlay__primary">
+            <a href="#" class="linkOverlay__primary" data-category="">
               <div class="menus__image drinks__image"></div>
               <div class="menus__name drinks__name"><span>Tigre</span></div>
             </a>
-            <a href="#" class="linkOverlay__primary">
+            <a href="#" class="linkOverlay__primary" data-category="">
               <div class="menus__image drinks__image"></div>
               <div class="menus__name drinks__name"><span>Cake</span></div>
             </a>
@@ -135,18 +154,18 @@
         </div>
         <div class="menus-container">
           <div class="menus-container__title">Merchandise</div>
-          <div class="links-container">
-            <a href="#" class="linkOverlay__primary">
+          <div class="link-container">
+            <a href="#" class="linkOverlay__primary" data-category="">
               <div class="menus__image drinks__image"></div>
               <div class="menus__name drinks__name">
                 <span>Coffee bean</span>
               </div>
             </a>
-            <a href="#" class="linkOverlay__primary">
+            <a href="#" class="linkOverlay__primary" data-category="">
               <div class="menus__image drinks__image"></div>
               <div class="menus__name drinks__name"><span>Eco bag</span></div>
             </a>
-            <a href="#" class="linkOverlay__primary">
+            <a href="#" class="linkOverlay__primary" data-category="">
               <div class="menus__image drinks__image"></div>
               <div class="menus__name drinks__name"><span>Cup</span></div>
             </a>
@@ -154,5 +173,31 @@
         </div>
       </div>
     </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="footer-metainfo">
+          <h3>About us</h3>
+          <a href="#">Our cafe</a>
+          <a href="#">Our coffee</a>
+          <a href="#">Our bakery</a>
+        </div>
+        <div class="footer-metainfo">
+          <h3>Services</h3>
+          <a href="#">Consulting</a>
+          <a href="#">Interior</a>
+          <a href="#">Place rental</a>
+        </div>
+        <div class="footer-metainfo">
+          <h3>Order</h3>
+          <a href="#">Delivery</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <i class="fab fa-instagram"></i>
+        <span>© 2021 Elephant Cafe Company. All rights reserved. </span>
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,206 @@
+{
+  "drinks": [
+    {
+      "category": "coffee",
+      "name": "Americano",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "coffee",
+      "name": "Brown latte",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "coffee",
+      "name": "Caffe latte",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "coffee",
+      "name": "Vanila latte",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "coffee",
+      "name": "Caramel macchiato",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "coffee",
+      "name": "Caffe moca",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "coffee",
+      "name": "Flat white",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "coffee",
+      "name": "Cappuccino",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "coffee",
+      "name": "Espresso",
+      "type": ["Hot"]
+    },
+    {
+      "category": "coffee",
+      "name": "Espresso macchiato",
+      "type": ["Hot"]
+    },
+    {
+      "category": "coffee",
+      "name": "Espresso con panna",
+      "type": ["Hot"]
+    },
+    {
+      "category": "coffee",
+      "name": "Affogato",
+      "type": ["Hot", "Cold"]
+    },
+
+    {
+      "category": "noncoffee",
+      "name": "Matcha latte",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "noncoffee",
+      "name": "Chocolat chaud",
+      "type": ["Hot", "Cold"]
+    },
+
+    {
+      "category": "tea",
+      "name": "Earl grey",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "tea",
+      "name": "Chamomile",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "tea",
+      "name": "Peppermint",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "tea",
+      "name": "Rosemary",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "tea",
+      "name": "Loyal milk tea",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "tea",
+      "name": "Apple earl grey",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "tea",
+      "name": "Apple cinamon",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "tea",
+      "name": "Grapefruit earl grey",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "tea",
+      "name": "Milk tea bottle",
+      "type": ["Cold"]
+    },
+    {
+      "category": "tea",
+      "name": "Matcha bottle",
+      "type": ["Cold"]
+    },
+    {
+      "category": "tea",
+      "name": "Lemon tea",
+      "type": ["Hot", "Cold"]
+    },
+
+    {
+      "category": "ade",
+      "name": "Lemon ade",
+      "type": ["Cold"]
+    },
+    {
+      "category": "ade",
+      "name": "Grapefruit ade",
+      "type": ["Cold"]
+    },
+
+    {
+      "category": "juice",
+      "name": "Fresh kiwi juice",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "juice",
+      "name": "Fresh grapefruit juice",
+      "type": ["Hot", "Cold"]
+    },
+
+    {
+      "category": "smoothie",
+      "name": "Strawberry smoothie",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "smoothie",
+      "name": "Strawberry & Banana smoothie",
+      "type": ["Hot", "Cold"]
+    },
+
+    {
+      "category": "fraffe",
+      "name": "Chocolate fraffe",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "fraffe",
+      "name": "Chocolate & Banana fraffe",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "fraffe",
+      "name": "CookieNcream fraffe",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "fraffe",
+      "name": "Green tea fraffe",
+      "type": ["Hot", "Cold"]
+    }
+  ],
+  "bakery" : [
+    {
+      "category": "scone",
+      "name": "CookieNcream fraffe",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "scone",
+      "name": "CookieNcream fraffe",
+      "type": ["Hot", "Cold"]
+    },
+    {
+      "category": "scone",
+      "name": "CookieNcream fraffe",
+      "type": ["Hot", "Cold"]
+    }{
+      "category": "scone",
+      "name": "CookieNcream fraffe",
+      "type": ["Hot", "Cold"]
+    }
+  ]
+}

@@ -18,7 +18,7 @@
 
 #menus {
   width: 78%;
-  padding: 40px 95px 0px 110px;
+  padding: 40px 95px 40px 110px;
 }
 
 /* Menu-category */
@@ -78,7 +78,7 @@
   padding-bottom: 25px;
 }
 
-.links-container {
+.link-container {
   margin-top: 32px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -88,6 +88,7 @@
 .linkOverlay__primary {
   height: 150px;
   display: flex;
+  cursor: pointer;
 }
 
 .menus__image {
@@ -95,7 +96,8 @@
   background: url("/images/brown-latte.JPG");
   background-position: center center;
   background-size: cover;
-  border-radius: 50%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 1px black;
 }
 
 .menus__name {
