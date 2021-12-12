@@ -54,3 +54,13 @@ Header
   - Coffee bean
   - Eco bag
   - Cup
+
+## what i make by JS
+
+- 메뉴 내에 카테고리 클릭 시 클릭된 카테고리에 해당하는 음료 showing []
+- 메뉴 왼쪽 카테고리 클릭 시 focus 효과 activate 된 상태 유지 []
+
+## API
+
+- geographic API
+- login API

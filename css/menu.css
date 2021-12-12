@@ -103,12 +103,22 @@
 .menus__name {
   width: 50%;
   display: Flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
-}
-
-.menus__name span {
-  margin-left: 35px;
+  padding-left: 35px;
   font-size: 1.3rem;
   font-weight: 400;
+}
+
+/* Coffee */
+
+.menus-title span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menus-title span::before {
+  content: ">";
+  display: inline-block;
+  margin: 0 10px;
 }

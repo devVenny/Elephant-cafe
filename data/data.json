@@ -62,12 +62,12 @@
     },
 
     {
-      "category": "noncoffee",
+      "category": "nonCoffee",
       "name": "Matcha latte",
       "type": ["Hot", "Cold"]
     },
     {
-      "category": "noncoffee",
+      "category": "nonCoffee",
       "name": "Chocolat chaud",
       "type": ["Hot", "Cold"]
     },
@@ -182,7 +182,7 @@
       "type": ["Hot", "Cold"]
     }
   ],
-  "bakery" : [
+  "bakery": [
     {
       "category": "scone",
       "name": "CookieNcream fraffe",
@@ -197,7 +197,8 @@
       "category": "scone",
       "name": "CookieNcream fraffe",
       "type": ["Hot", "Cold"]
-    }{
+    },
+    {
       "category": "scone",
       "name": "CookieNcream fraffe",
       "type": ["Hot", "Cold"]
