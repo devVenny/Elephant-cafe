@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elephant cate</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/9cd36ea70d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="../scripts/menus.js"></script>
+    <script defer src="../scripts/menu.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="section">
+      <div class="header-left">
+        <a class="header__logo" href="/index.html">
+          <i class="fas fa-republican"></i>
+        </a>
+
+        <ul class="header__nav">
+          <li class="header__menu">
+            <a href="./menu.html">Menu</a>
+          </li>
+          <li class="header__photo">
+            <a href="#">Photo</a>
+          </li>
+          <li class="header__info">
+            <a href="#">Info</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <div class="find-store">
+          <i class="fas fa-map-marker-alt"></i><span>Find a store</span>
+        </div>
+        <button class="btn signIn-btn">Sign in</button>
+        <button class="btn login-btn">Log in</button>
+      </div>
+    </header>
+
+    <div id="menu-container">
+      <!-- Menu Category -->
+      <div id="menu-category">
+        <div class="catergory-wrapper">
+          <h3 class="category-title">Drinks</h3>
+          <ul>
+            <li data-filter="coffee">Coffee</li>
+            <li data-filter="non-coffee">Non-Coffee</li>
+            <li data-filter="tea">Tea</li>
+            <li data-filter="fraffe">Fraffe</li>
+            <li data-filter="smoothie">Smoothie</li>
+            <li data-filter="juice">Juice</li>
+            <li data-filter="ade">Ade</li>
+          </ul>
+        </div>
+        <div class="catergory-wrapper">
+          <h3 class="category-title">Bakery</h3>
+          <ul>
+            <li data-filter="scone">Scone</li>
+            <li data-filter="financier">Financier</li>
+            <li data-filter="madeleine">Madeleine</li>
+            <li data-filter="tigre">Tigre</li>
+            <li data-filter="cake">Cake</li>
+          </ul>
+        </div>
+        <div class="catergory-wrapper">
+          <h3 class="category-title">Merchandise</h3>
+          <ul>
+            <li data-filter="coffee-bean">Coffee bean</li>
+            <li data-filter="eco-bag">Eco bag</li>
+            <li data-filter="cup">Cup</li>
+          </ul>
+        </div>
+      </div>
+
+    <!-- Menus -->
+      <div id="menus">
+        <a class="menus-title" href="menu.html">Menu</a>
+          <div class="menus-container">
+            <div class="menus-container__title"></div>
+            <div class="link-container">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="footer-metainfo">
+          <h3>About us</h3>
+          <a href="#">Our cafe</a>
+          <a href="#">Our coffee</a>
+          <a href="#">Our bakery</a>
+        </div>
+        <div class="footer-metainfo">
+          <h3>Services</h3>
+          <a href="#">Consulting</a>
+          <a href="#">Interior</a>
+          <a href="#">Place rental</a>
+        </div>
+        <div class="footer-metainfo">
+          <h3>Order</h3>
+          <a href="#">Delivery</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <i class="fab fa-instagram"></i>
+        <span>© 2021 Elephant Cafe Company. All rights reserved. </span>
+      </div>
+    </footer>
+  </body>
+</html>

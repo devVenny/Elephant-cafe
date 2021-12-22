@@ -103,6 +103,7 @@
 .menus__name {
   width: 50%;
   display: Flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-left: 35px;
@@ -121,4 +122,8 @@
   content: ">";
   display: inline-block;
   margin: 0 10px;
+}
+
+.menus__temp {
+  display: block;
 }

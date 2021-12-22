@@ -64,3 +64,10 @@ Header
 
 - geographic API
 - login API
+- reveal.js
+
+## JS function
+
+- scroll up
+- scrollReveal
+-
