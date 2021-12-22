@@ -52,25 +52,25 @@
       "category-header": "drinks",
       "category": "coffee",
       "name": "Espresso",
-      "temp": ["Hot"]
+      "temp": []
     },
     {
       "category-header": "drinks",
       "category": "coffee",
       "name": "Espresso macchiato",
-      "temp": ["Hot"]
+      "temp": []
     },
     {
       "category-header": "drinks",
       "category": "coffee",
       "name": "Espresso con panna",
-      "temp": ["Hot"]
+      "temp": []
     },
     {
       "category-header": "drinks",
       "category": "coffee",
       "name": "Affogato",
-      "temp": ["Hot", "Cold"]
+      "temp": []
     },
 
     {
