@@ -20,6 +20,7 @@ function capitalizeFirstLetter(categoryTitle) {
 // Populate UI
 function displayItems() {
   const getMenuLS = localStorage.getItem(CATEGORY__KEYNAME);
+  console.log(getMenuLS);
   const parsedMenu = JSON.parse(getMenuLS);
   const categoryTitle = parsedMenu[0].category;
   if (parsedMenu !== null || parsedMenu.length <= 0) {
