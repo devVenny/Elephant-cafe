@@ -23,11 +23,11 @@
 
 /* Menu-category */
 
-.catergory-wrapper ul {
+.category-wrapper ul {
   padding-left: 20px;
 }
 
-.catergory-wrapper ul li {
+.category-wrapper ul li {
   width: 100px;
   color: rgba(0, 0, 0, 0.58);
   margin-bottom: 10px;
@@ -37,7 +37,7 @@
   transition: opacity 0.2s ease-in-out;
 }
 
-.catergory-wrapper ul li::after {
+.category-wrapper ul li::after {
   content: "";
   display: inline-block;
   width: 4px;
@@ -49,8 +49,8 @@
   transition: all 0.2s ease-in-out;
 }
 
-.catergory-wrapper ul li:hover::after,
-.catergory-wrapper ul li:hover {
+.category-wrapper ul li:hover::after,
+.category-wrapper ul li:hover {
   opacity: 1;
   color: var(--deep-green);
 }
@@ -82,22 +82,26 @@
   margin-top: 32px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  gap: 10px;
 }
+
+/* Each Menu */
 
 .linkOverlay__primary {
   height: 150px;
   display: flex;
+  align-items: center;
   cursor: pointer;
 }
 
 .menus__image {
-  width: 50%;
-  background: url("/images/brown-latte.JPG");
+  width: 112px;
+  height: 112px;
+  background: url("/images/brown-latte.png");
   background-position: center center;
   background-size: cover;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px 1px black;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px 1px black;
 }
 
 .menus__text {
@@ -105,17 +109,11 @@
   display: Flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding-left: 35px;
-  font-size: 1.3rem;
+  align-items: start;
+  padding: 20px;
+  font-size: 1.1rem;
   font-weight: 400;
-}
-
-/* Each Menu */
-
-.menus__name {
-  text-align: center;
-  margin-bottom: 10px;
+  letter-spacing: 1px;
 }
 
 .menus-title span {
@@ -137,4 +135,11 @@
 
 .cold {
   margin-left: 5px;
+}
+
+.small-heading {
+  font-size: 18px;
+  color: var(--main-grey);
+  font-weight: 400;
+  margin-left: 7px;
 }

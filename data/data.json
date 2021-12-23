@@ -75,13 +75,13 @@
 
     {
       "category-header": "drinks",
-      "category": "nonCoffee",
+      "category": "non-Coffee",
       "name": "Matcha latte",
       "temp": ["Hot", "Cold"]
     },
     {
       "category-header": "drinks",
-      "category": "nonCoffee",
+      "category": "non-Coffee",
       "name": "Chocolat chaud",
       "temp": ["Hot", "Cold"]
     },
@@ -138,13 +138,13 @@
       "category-header": "drinks",
       "category": "tea",
       "name": "Milk tea bottle",
-      "temp": ["Cold"]
+      "temp": ["", "Cold"]
     },
     {
       "category-header": "drinks",
       "category": "tea",
       "name": "Matcha bottle",
-      "temp": ["Cold"]
+      "temp": ["", "Cold"]
     },
     {
       "category-header": "drinks",
@@ -157,89 +157,150 @@
       "category-header": "drinks",
       "category": "ade",
       "name": "Lemon ade",
-      "temp": ["Cold"]
+      "temp": ["", "Cold"]
     },
     {
       "category-header": "drinks",
       "category": "ade",
       "name": "Grapefruit ade",
-      "temp": ["Cold"]
+      "temp": ["", "Cold"]
     },
 
     {
       "category-header": "drinks",
       "category": "juice",
-      "name": "Fresh kiwi juice",
-      "temp": ["Hot", "Cold"]
+      "name": "Fresh Kiwi juice",
+      "temp": ["", "Cold"]
     },
     {
       "category-header": "drinks",
       "category": "juice",
-      "name": "Fresh grapefruit juice",
-      "temp": ["Hot", "Cold"]
+      "name": "Fresh Grapefruit juice",
+      "temp": ["", "Cold"]
     },
 
     {
       "category-header": "drinks",
       "category": "smoothie",
       "name": "Strawberry smoothie",
-      "temp": ["Hot", "Cold"]
+      "temp": ["", "Cold"]
     },
     {
       "category-header": "drinks",
       "category": "smoothie",
       "name": "Strawberry & Banana smoothie",
-      "temp": ["Hot", "Cold"]
+      "temp": ["", "Cold"]
     },
 
     {
       "category-header": "drinks",
       "category": "fraffe",
-      "name": "Chocolate fraffe",
+      "name": "Chocolate Fraffe",
       "temp": ["Hot", "Cold"]
     },
     {
       "category-header": "drinks",
       "category": "fraffe",
-      "name": "Chocolate & Banana fraffe",
-      "temp": ["Hot", "Cold"]
+      "name": "Chocolate & Banana Fraffe",
+      "temp": ["Cold"]
     },
     {
       "category-header": "drinks",
       "category": "fraffe",
-      "name": "CookieNcream fraffe",
-      "temp": ["Hot", "Cold"]
+      "name": "CookieNcream Fraffe",
+      "temp": ["Cold"]
     },
     {
       "category-header": "drinks",
       "category": "fraffe",
-      "name": "Green tea fraffe",
-      "temp": ["Hot", "Cold"]
+      "name": "Green tea Fraffe",
+      "temp": ["Cold"]
     },
 
     {
       "category-header": "bakery",
       "category": "scone",
-      "name": "CookieNcream fraffe",
-      "temp": ["Hot", "Cold"]
+      "name": "Victoria"
     },
     {
       "category-header": "bakery",
       "category": "scone",
-      "name": "CookieNcream fraffe",
-      "temp": ["Hot", "Cold"]
+      "name": "Triple chocolate"
     },
     {
       "category-header": "bakery",
       "category": "scone",
-      "name": "CookieNcream fraffe",
-      "temp": ["Hot", "Cold"]
+      "name": "Yogurt Bluberry"
     },
     {
       "category-header": "bakery",
       "category": "scone",
-      "name": "CookieNcream fraffe",
-      "temp": ["Hot", "Cold"]
+      "name": "Salty Caramel"
+    },
+    {
+      "category-header": "bakery",
+      "category": "scone",
+      "name": "Matcha"
+    },
+    {
+      "category-header": "bakery",
+      "category": "scone",
+      "name": "Cherry Nutela"
+    },
+    {
+      "category-header": "bakery",
+      "category": "madeleine",
+      "name": "Vanila madeleine"
+    },
+    {
+      "category-header": "bakery",
+      "category": "madeleine",
+      "name": "Dirty Choco madeleine"
+    },
+    {
+      "category-header": "bakery",
+      "category": "madeleine",
+      "name": "Earl Grey madeleine"
+    },
+    {
+      "category-header": "bakery",
+      "category": "financier",
+      "name": "Earl Grey Financier"
+    },
+    {
+      "category-header": "bakery",
+      "category": "financier",
+      "name": "Churros Financier"
+    },
+    {
+      "category-header": "bakery",
+      "category": "financier",
+      "name": "Salty Choco Financier"
+    },
+    {
+      "category-header": "bakery",
+      "category": "financier",
+      "name": "Wine, Fig & Cream Cheese"
+    },
+    {
+      "category-header": "bakery",
+      "category": "tigre",
+      "name": "Earl Grey Tigre"
+    },
+    {
+      "category-header": "bakery",
+      "category": "tigre",
+      "name": "Dark Choco Tigre"
+    },
+    {
+      "category-header": "bakery",
+      "category": "cake",
+      "name": "Carrot cake"
+    },
+    {
+      "category-header": "bakery",
+      "category": "cake",
+      "name": "Apple Crumble"
     }
   ]
 }

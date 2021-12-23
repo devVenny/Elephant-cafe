@@ -1,7 +1,7 @@
 @import url("./css/header.css");
 @import url("./css/home.css");
 @import url("./css/about.css");
-@import url("./css/signiture.css");
+@import url("./css/coffee.css");
 @import url("./css/bakery.css");
 @import url("./css/coupon.css");
 @import url("./css/crew.css");
@@ -18,6 +18,7 @@
   --normal-grey: #8892b0;
   --light-grey: #a8b2d1;
   --lightest-grey: #ccd6f6;
+  --main-grey: rgba(0, 0, 0, 0.58);
   --deep-green: #13301f;
   --border-grey: rgba(0, 0, 0, 0.1);
 }
